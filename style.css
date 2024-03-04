@@ -1,0 +1,62 @@
+*{
+    background-color: black;
+}
+
+.musicApp{
+    font-size: 50px;
+    color: aquamarine;
+}
+
+.app{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.items{
+    margin: 15%;
+    width: 100%;
+    
+    display: flex;
+}
+
+.item1{
+    background: rgb(78, 78, 171);
+    height: 100px;
+    width: 100px;
+    flex: 1;
+    border-radius: 50%;
+}
+
+.item2{
+  background: rgb(245, 180, 191);
+  height: 100px;
+  width: 100px;
+flex: 1;
+border-radius: 50%;
+}
+
+.item3{
+    background: rgb(172, 44, 172);
+    height: 100px;
+    width: 100px;
+    flex: 1;
+    border-radius: 50%;
+}
+
+.item4{
+    background: rgb(104, 206, 104);
+    height: 100px;
+    width: 100px;
+    flex: 1;
+    border-radius: 50%;
+}
+
+.item5{
+    background: rgb(239, 239, 103);
+    height: 100px;
+    width: 100px;
+    flex: 1;
+    border-radius: 50%;
+}
