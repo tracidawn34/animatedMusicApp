@@ -3,8 +3,16 @@
 }
 
 .musicApp{
-    font-size: 50px;
+    font-size: 60px;
     color: aquamarine;
+    text-align: center;
+    ;
+}
+
+p{
+    font-size: 40px;
+    color: aquamarine;
+    text-align: center;
 }
 
 .app{
@@ -16,47 +24,73 @@
 
 .items{
     margin: 15%;
+    margin-left: 45%;
     width: 100%;
-    
+    align-items: center;
     display: flex;
 }
 
-.item1{
-    background: rgb(78, 78, 171);
-    height: 100px;
-    width: 100px;
+
+
+#button1{
+    border-radius: 50%;
+    background: rgb(245, 180, 191);
+    height: 170px;
+    width: 170px;
+    flex: 1;
+}
+
+#button2{
+    background:rgb(172, 44, 172) ;
+    height: 170px;
+    width: 170px;
+  flex: 1;
+  border-radius: 50%;
+}
+
+#button3{
+    background:rgb(78, 78, 171) ;
+    height: 170px;
+    width: 170px;
     flex: 1;
     border-radius: 50%;
 }
 
-.item2{
-  background: rgb(245, 180, 191);
-  height: 100px;
-  width: 100px;
-flex: 1;
-border-radius: 50%;
-}
-
-.item3{
-    background: rgb(172, 44, 172);
-    height: 100px;
-    width: 100px;
-    flex: 1;
-    border-radius: 50%;
-}
-
-.item4{
+#button4{
     background: rgb(104, 206, 104);
-    height: 100px;
-    width: 100px;
+    height: 170px;
+    width: 170px;
     flex: 1;
     border-radius: 50%;
 }
 
-.item5{
+#button5{
     background: rgb(239, 239, 103);
-    height: 100px;
-    width: 100px;
+    height: 170px;
+    width: 170px;
     flex: 1;
     border-radius: 50%;
+}
+
+#button6{
+    background: rgb(236, 178, 72);
+    height: 170px;
+    width: 170px;
+    flex: 1;
+    border-radius: 50%;
+}
+
+@keyframes jump{
+    0%{
+        bottom: 0%;
+        left: 20%;
+    }
+    50%{
+        bottom: 50%;
+        left: 50%;
+    }
+    100%{
+        bottom: 0%;
+        left: 80%;
+    }
 }
