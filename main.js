@@ -1,7 +1,7 @@
-const bird = new Audio('sounds/bird.wav')
+const titleMusic = new Audio('sounds/title-music.wav')
 const bubble = new Audio('sounds/bubble.wav')
 const chimeUp = new Audio('sounds/chime-up.wav')
-const drumKick = new Audio('sounds/drum_kick.wav')
+const guitar = new Audio('sounds/guitar.wav')
 const nordDrum = new Audio('sounds/nord-drum.wav')
 const slideWhistle = new Audio('sounds/slide-whistle.wav')
 
@@ -15,8 +15,8 @@ const button6 = document.getElementById('button6')
 button1.addEventListener('click', ()=>{
     //console.log('click')
     //if(button1.clicked)
-bird.currentTime = 0
-    bird.play()
+titleMusic.currentTime = 0
+    titleMusic.play()
 })
 
 button2.addEventListener('click', ()=>{
@@ -31,8 +31,8 @@ button3.addEventListener('click', ()=>{
 })
 
 button4.addEventListener('click', ()=>{
-    drumKick.currentTime = 0
-    drumKick.play()
+    guitar.currentTime = 0
+    guitar.play()
 })
 
 button5.addEventListener('click', ()=>{
