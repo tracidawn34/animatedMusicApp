@@ -4,15 +4,16 @@
 
 .musicApp{
     font-size: 60px;
-    color: aquamarine;
+    color: white;
     text-align: center;
-    ;
+    background-image: linear-gradient(to right, red, orange, yellow, green, blue, indigo, red);
 }
 
 p{
     font-size: 40px;
-    color: aquamarine;
+    color: white;
     text-align: center;
+    background-image: linear-gradient(to right, red, orange, yellow, green, blue, indigo, red);
 }
 
 .app{
@@ -24,7 +25,7 @@ p{
 
 .items{
     margin: 15%;
-    margin-left: 45%;
+    margin-left: 60%; 
     width: 100%;
     align-items: center;
     display: flex;
@@ -35,62 +36,83 @@ p{
 #button1{
     border-radius: 50%;
     background: rgb(245, 180, 191);
-    height: 170px;
-    width: 170px;
+    height: 150px;
+    width: 150px;
     flex: 1;
 }
 
 #button2{
     background:rgb(172, 44, 172) ;
-    height: 170px;
-    width: 170px;
+    height: 150px;
+    width: 150px;
   flex: 1;
   border-radius: 50%;
 }
 
 #button3{
     background:rgb(78, 78, 171) ;
-    height: 170px;
-    width: 170px;
+    height: 150px;
+    width: 150px;
     flex: 1;
     border-radius: 50%;
 }
 
 #button4{
     background: rgb(104, 206, 104);
-    height: 170px;
-    width: 170px;
+    height: 150px;
+    width: 150px;
     flex: 1;
     border-radius: 50%;
 }
 
 #button5{
     background: rgb(239, 239, 103);
-    height: 170px;
-    width: 170px;
+    height: 150px;
+    width: 150px;
     flex: 1;
     border-radius: 50%;
 }
 
 #button6{
     background: rgb(236, 178, 72);
-    height: 170px;
-    width: 170px;
+    height: 150px;
+    width: 150px;
     flex: 1;
     border-radius: 50%;
 }
 
-@keyframes jump{
-    0%{
-        bottom: 0%;
-        left: 20%;
-    }
-    50%{
-        bottom: 50%;
-        left: 50%;
-    }
-    100%{
-        bottom: 0%;
-        left: 80%;
-    }
+#button1:active{
+    background-image: linear-gradient(to right, red, orange, yellow, green, blue, indigo, red);
+    animation:slidebg 2s linear infinite;
 }
+
+#button2:hover{
+    background-image: linear-gradient(to right, red, orange, yellow, green, blue, indigo, violet, red);
+    animation:slidebg 2s linear infinite;
+}
+
+#button3:hover{
+    background-image: linear-gradient(to right, red, orange, yellow, green, blue, indigo, red);
+    animation:slidebg 2s linear infinite;
+}
+
+#button4:hover{
+    background-image: linear-gradient(to right, red, orange, yellow, green, blue, indigo, red);
+    animation:slidebg 2s linear infinite;
+}
+
+#button5:hover{
+    background-image: linear-gradient(to right, red, orange, yellow, green, blue, indigo, red);
+    animation:slidebg 2s linear infinite;
+}
+
+#button6:hover{
+    background-image: linear-gradient(to right, red, orange, yellow, green, blue, indigo, red);
+    animation:slidebg 2s linear infinite;
+}
+
+@keyframes slidebg {
+    to {
+      background-position:20vw;
+    }
+  }

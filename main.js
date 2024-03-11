@@ -45,10 +45,6 @@ button6.addEventListener('click', ()=>{
     slideWhistle.play()
 })
 
-const makeBubbles = ()=>{
-const bubbles = document.createElement('div')
-viewPoint.appendChild(bubbles)
-bubbles.style.backgroundColor = "yellow"
-bubbles.style.animation = "jump 1s ease"
 
-}
+  
+  
