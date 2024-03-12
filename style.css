@@ -83,27 +83,27 @@ p{
 
 #button1:hover{
     background-image: linear-gradient(to right, red, orange, yellow, green, blue, indigo, red);
-    animation:slidebg 2s linear infinite;
+    animation:slidebg 3s linear infinite;
 }
 
 #button2:hover{
     background-image: linear-gradient(to right, red, orange, yellow, green, blue, indigo, violet, red);
-    animation:slidebg 2s linear infinite;
+    animation:slidebg 3s linear infinite;
 }
 
 #button3:hover{
     background-image: linear-gradient(to right, red, orange, yellow, green, blue, indigo, red);
-    animation:slidebg 2s linear infinite;
+    animation:slidebg 3s linear infinite;
 }
 
 #button4:hover{
     background-image: linear-gradient(to right, red, orange, yellow, green, blue, indigo, red);
-    animation:slidebg 2s linear infinite;
+    animation:slidebg 3s linear infinite;
 }
 
 #button5:hover{
     background-image: linear-gradient(to right, red, orange, yellow, green, blue, indigo, red);
-    animation:slidebg 2s linear infinite;
+    animation:slidebg 3s linear infinite;
 }
 
 #button6:hover{
