@@ -48,3 +48,7 @@ button6.addEventListener('click', ()=>{
 
   
   
+let keys = Object.keys(localStorage);
+for(let key of keys) {
+  console.log(`${key}: ${localStorage.getItem(key)}`);
+}
