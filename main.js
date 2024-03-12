@@ -45,9 +45,7 @@ button6.addEventListener('click', ()=>{
     slideWhistle.play()
 })
 
-
-  
-  
+ 
 let keys = Object.keys(localStorage);
 for(let key of keys) {
   console.log(`${key}: ${localStorage.getItem(key)}`);
