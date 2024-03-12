@@ -1,0 +1,1 @@
+Click on different colors to hear different music sounds, and make your own beats.
